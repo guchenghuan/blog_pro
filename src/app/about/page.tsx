@@ -20,12 +20,6 @@ const timeline = [
   {
     year: '2018',
     events: [
-      // {
-      //   time: '6月',
-      //   title: '本科毕业 🎓',
-      //   description: '湖北理工 · 环境工程，最初学的 Java，工作慢慢学写 JavaScript~',
-      //   logo: '/images/about/ligong.png',
-      // },
       {
         time: '6月',
         title: '携程 · 测试开发',
