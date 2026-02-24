@@ -232,3 +232,60 @@ body {
   border-top: 1px solid var(--border-color);
   margin: 2em 0;
 }
+
+/* Photo Gallery */
+.photo-card {
+  animation: photoFadeIn 0.4s ease both;
+}
+
+@keyframes photoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.photo-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.55) 0%,
+    rgba(0, 0, 0, 0.1) 40%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.photo-card:hover .photo-overlay {
+  opacity: 1;
+}
+
+.lightbox-backdrop {
+  background-color: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(20px);
+  animation: lightboxFadeIn 0.25s ease;
+}
+
+.lightbox-content {
+  animation: lightboxSlideIn 0.3s ease;
+}
+
+@keyframes lightboxFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes lightboxSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

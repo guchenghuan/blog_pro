@@ -14,7 +14,7 @@ export default function MarkdownRenderer({ content }: Props) {
       components={{
         img: ({ src, alt }) => (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={src} alt={alt || ""} className="my-4 max-w-full rounded" loading="lazy" />
+          <img src={src} alt={alt || ""} className="my-4 max-w-full rounded" loading="lazy" referrerPolicy="no-referrer" />
         ),
       }}
     >

@@ -20,7 +20,8 @@ export default function WritingPage() {
             style={{ color: "var(--text-secondary)" }}
           >
             我在这里分享软件工程职业生涯中的见解与经验。写作内容主要涵盖
-            Web 开发、软件工程最佳实践和技术趋势。
+            Web 开发、软件工程最佳实践、技术趋势，以及 AI
+            的前沿动态与实际落地应用。
           </p>
         </div>
 

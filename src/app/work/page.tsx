@@ -13,21 +13,14 @@ const projects = [
     description:
       "使用 Next.js、Tailwind CSS 和 MDX 构建的现代个人博客。支持暗色模式、响应式设计和性能优化。",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    link: "#",
+    link: "https://github.com/guchenghuan/blog_pro",
   },
   {
-    title: "设计系统",
+    title: "Local-Session-Cookies",
     description:
-      "为大规模应用构建的综合组件库。包含无障碍组件、主题支持和详细文档。",
-    tags: ["React", "Storybook", "TypeScript"],
-    link: "#",
-  },
-  {
-    title: "CLI 工具",
-    description:
-      "用于快速搭建 Web 项目的命令行工具。支持多种框架，内置最佳实践。",
-    tags: ["Node.js", "TypeScript", "CLI"],
-    link: "#",
+      "Chrome 浏览器扩展插件，用于查看和管理页面的 LocalStorage、SessionStorage 和 Cookies 数据，方便开发调试。",
+    tags: ["JavaScript", "Chrome Extension", "DevTools"],
+    link: "https://github.com/guchenghuan/Local-Session-Cookies",
   },
 ];
 
